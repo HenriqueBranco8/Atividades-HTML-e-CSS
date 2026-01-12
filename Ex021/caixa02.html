@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif, Helvetica, Arial;
+            background-color: #A0D9D9;
+        }
+        header{
+            height: 111px;
+            background-color: #D9C589;
+
+            padding-left: 8px;
+        }
+        main{
+            background-color: #45858C;
+            text-indent: 10px;
+        }
+
+        footer{
+            background-color: #BF9765;
+            color: white;
+            text-align: center;
+            padding: 1px 0px 1px 0px;
+        }
+
+        article{
+            margin:10px;
+            padding: 2px;
+        }
+
+        article > aside{
+            background-color: #4898a1;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum sequi in, placeat repudiandae molestias illum culpa modi. Ex repellat vel, vero nihil aperiam esse animi suscipit neque, magnam, quam autem.</p>
+
+                <aside>
+                    <p>Artigo escrito por Henrique Branco em parceiria com Lorem</p>
+                </aside>
+            </article>
+
+            <article>
+                
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito Por Henrique Branco</p>
+    </footer>
+</body>
+</html>
