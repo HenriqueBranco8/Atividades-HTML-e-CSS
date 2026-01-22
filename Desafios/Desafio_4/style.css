@@ -15,7 +15,7 @@ body{
 
 header{
     width: 100%;
-    height: 200px;
+    height: 232px;
     background-image: linear-gradient(to bottom,#2ebf79, #0e4325);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.459);
 }
@@ -47,7 +47,7 @@ nav{
 
 li{
     display: inline-block;
-    margin: 7px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 10px;
 }
 li > .nav_links{
@@ -88,6 +88,7 @@ main{
 }
 p{
     align-items: flex-start;
+    font-size: 25px;
 }
 .paragrafos_main{
     text-indent: 25px;
@@ -98,8 +99,15 @@ p{
     color: rgb(6, 139, 6);
 }
 .letras_destacadas_com_links{
-    color: rgb(6, 139, 6);
+    background-color: #2fa8654d;
+    color: #063D1E;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 1px ;
+}
+.letras_destacadas_com_links:hover{
+    background-color: #2fa86579;
+    font-size: 20px;
 }
 
 picture.img_1 > img{
@@ -110,4 +118,18 @@ picture.img_1 > img{
 .irina_blok_img{
     width: 100%;
     border-radius: 10px;
+}
+
+.bugdroid{
+    width: 100%;
+}
+
+.video_bugdroid{
+    width: 100%;
+}
+
+div.video_bugdroid > iframe{
+    margin: 40px auto;
+    width: 100%;
+    height: 632px;
 }
