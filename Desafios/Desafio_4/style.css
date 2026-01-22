@@ -5,8 +5,10 @@
     src: url(Fontes/idroid.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@font-face {
+    font-family: open;
+    src: url(Fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -88,12 +90,11 @@ main{
     font-family: idroid;
     color: #1c784b;
 }
-p{
+
+.paragrafos_main{
     align-items: flex-start;
     font-size: 25px;
-    font-family: Open+Sans;
-}
-.paragrafos_main{
+    font-family: open;
     text-indent: 25px;
     margin: 0px 28px 0px 28px;
     text-align: left;
@@ -146,9 +147,31 @@ div.video_bugdroid > iframe{
     
 }
 
+aside{
+    background-color: rgb(130, 209, 141);
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+}
 .h2_aside{
+    padding: 8px 15px;
+    border-radius: 10px 10px 0px 0px;
     background-color: #3B6B42;
     color: white;
-    font-family: 'Roboto', Arial, sans-serif;
-
+    font-family: open, Arial, sans-serif;
 }
+.paragrafos_aside{
+    font-size: 20px;
+    margin: 0px 28px 0px 28px;
+    text-align: left;
+}
+
+.lista_aside{
+    border: dashed 1px black;
+    text-align: right;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: open;
+    text-align: left;
+0}
