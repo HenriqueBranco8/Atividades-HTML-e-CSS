@@ -228,3 +228,17 @@ footer > p{
     padding: 2px;
     border-radius: 4px;
 }
+
+.letras_destacadas_com_links_aside{
+    color: rgb(6, 139, 6);
+    background-color: #2fa8654d;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.letras_destacadas_com_links_aside:hover{
+    background-color: #2fa86579;
+    font-size: 20px;
+    padding: 3px;
+}
