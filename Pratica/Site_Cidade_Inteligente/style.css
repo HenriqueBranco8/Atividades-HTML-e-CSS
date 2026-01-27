@@ -66,8 +66,36 @@ nav > a:hover{
 }
 
 main{
+    padding: 10px;
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
     background-color: #F4F4F4;
+}
+
+.section_1 > h1{
+    margin-bottom: 13px;
+    font-family: var(--font-titulos);
+    font-size: 24px;
+    color: var(--Cor2);
+}
+
+.section_1 > p{
+    text-align: left;
+    font-size: var(--font-padrao);
+    font-size: 18px;
+    color: var(--Cor2);
+}
+
+p.txt_section_1 > a{
+    padding: 3px;
+    background-color: #2d8bff86;
+    color: var(--Cor2);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+p.txt_section_1 > a:hover{
+    background-color: #2D8CFF;
+    color: white;
 }
