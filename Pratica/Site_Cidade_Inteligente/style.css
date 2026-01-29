@@ -17,6 +17,8 @@
     --font-padrao: "Open Sans", sans-serif;
     --font-titulos: "Lora", serif;
     --font-destaque: "Roboto", sans-serif;
+    --font-tamanho-titulo: 35px;
+    --font-tamanho-p: 25px;
 }
 *{
     margin: 0px;
@@ -76,14 +78,17 @@ main{
 .section_1 > h1{
     margin-bottom: 13px;
     font-family: var(--font-titulos);
-    font-size: 24px;
+    font-size: var(--font-tamanho-titulo);
     color: var(--Cor2);
+}
+
+p{
+    font-size: var(--font-tamanho-p);
 }
 
 .section_1 > p{
     text-align: left;
-    font-size: var(--font-padrao);
-    font-size: 18px;
+    font-family: var(--font-titulos);
     color: var(--Cor2);
 }
 
@@ -98,4 +103,19 @@ p.txt_section_1 > a{
 p.txt_section_1 > a:hover{
     background-color: #2D8CFF;
     color: white;
+}
+
+.picture_city_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 99%;
+    height: 425px;
+    background-color: #064592;
+}
+
+.picture_city_1 > img{
+    width: 92%;
+    height: 392px;
 }
