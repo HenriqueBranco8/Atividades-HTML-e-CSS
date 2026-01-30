@@ -68,7 +68,7 @@ nav > a:hover{
 }
 
 main{
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -115,7 +115,46 @@ p.txt_section_1 > a:hover{
     background-color: #064592;
 }
 
+.fonte{
+    margin-top: 25px;
+}
+
+address{
+    margin-bottom: 32px;
+}
+
 .picture_city_1 > img{
     width: 92%;
     height: 392px;
+}
+
+.section_2 > h2{
+    margin-top: 25px;
+    margin-bottom: 13px;
+    font-family: var(--font-titulos);
+    font-size: var(--font-tamanho-titulo);
+    color: var(--Cor2);
+}
+
+.section_2 > p{
+    text-align: left;
+    font-family: var(--font-titulos);
+    color: var(--Cor2);
+    margin-bottom: 32px;
+}
+
+.picture_cidade_2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    height: 425px;
+    background-color: #064592;
+    margin-bottom: 32px;
+}
+
+.img_cidade_inteligente{
+    margin: auto;
+    height: 400px;
 }
